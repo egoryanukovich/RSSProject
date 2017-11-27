@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NewsController.h
 //  RSSProject
 //
 //  Created by Egor Yanukovich on 11/27/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NewsController : UIViewController
 
 @end
-

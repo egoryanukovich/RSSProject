@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		54B0F5DA33C743BA51B758C2 /* libPods-RSSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4300920B41C52D9E8E34A5D /* libPods-RSSProject.a */; };
 		7F4A5DB21FCC01A7009C1C90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A5DB11FCC01A7009C1C90 /* AppDelegate.m */; };
-		7F4A5DB51FCC01A7009C1C90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A5DB41FCC01A7009C1C90 /* ViewController.m */; };
 		7F4A5DB81FCC01A7009C1C90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A5DB61FCC01A7009C1C90 /* Main.storyboard */; };
 		7F4A5DBA1FCC01A7009C1C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A5DB91FCC01A7009C1C90 /* Assets.xcassets */; };
 		7F4A5DBD1FCC01A7009C1C90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A5DBB1FCC01A7009C1C90 /* LaunchScreen.storyboard */; };
 		7F4A5DC01FCC01A7009C1C90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A5DBF1FCC01A7009C1C90 /* main.m */; };
+		7F4A5DC81FCC07EE009C1C90 /* ParentTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A5DC71FCC07EE009C1C90 /* ParentTabBarController.m */; };
+		7F4A5DCB1FCC085D009C1C90 /* NewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A5DCA1FCC085D009C1C90 /* NewsController.m */; };
+		7F4A5DCE1FCC086E009C1C90 /* AnalyticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A5DCD1FCC086E009C1C90 /* AnalyticsController.m */; };
+		7F4A5DE31FCC125F009C1C90 /* FxAnalytics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A5DE21FCC125F009C1C90 /* FxAnalytics.storyboard */; };
+		7F4A5DE51FCC128E009C1C90 /* FxLiveNews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A5DE41FCC128E009C1C90 /* FxLiveNews.storyboard */; };
+		7F4A5DEA1FCC174D009C1C90 /* AnalyticsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A5DE81FCC174D009C1C90 /* AnalyticsCell.m */; };
+		7F4A5DEB1FCC174D009C1C90 /* AnalyticsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A5DE91FCC174D009C1C90 /* AnalyticsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +27,22 @@
 		7F4A5DAD1FCC01A7009C1C90 /* RSSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4A5DB01FCC01A7009C1C90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F4A5DB11FCC01A7009C1C90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7F4A5DB31FCC01A7009C1C90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7F4A5DB41FCC01A7009C1C90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7F4A5DB71FCC01A7009C1C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F4A5DB91FCC01A7009C1C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F4A5DBC1FCC01A7009C1C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F4A5DBE1FCC01A7009C1C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F4A5DBF1FCC01A7009C1C90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F4A5DC61FCC07EE009C1C90 /* ParentTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentTabBarController.h; sourceTree = "<group>"; };
+		7F4A5DC71FCC07EE009C1C90 /* ParentTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentTabBarController.m; sourceTree = "<group>"; };
+		7F4A5DC91FCC085D009C1C90 /* NewsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsController.h; sourceTree = "<group>"; };
+		7F4A5DCA1FCC085D009C1C90 /* NewsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsController.m; sourceTree = "<group>"; };
+		7F4A5DCC1FCC086E009C1C90 /* AnalyticsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalyticsController.h; sourceTree = "<group>"; };
+		7F4A5DCD1FCC086E009C1C90 /* AnalyticsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalyticsController.m; sourceTree = "<group>"; };
+		7F4A5DE21FCC125F009C1C90 /* FxAnalytics.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FxAnalytics.storyboard; sourceTree = "<group>"; };
+		7F4A5DE41FCC128E009C1C90 /* FxLiveNews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FxLiveNews.storyboard; sourceTree = "<group>"; };
+		7F4A5DE71FCC174D009C1C90 /* AnalyticsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalyticsCell.h; sourceTree = "<group>"; };
+		7F4A5DE81FCC174D009C1C90 /* AnalyticsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalyticsCell.m; sourceTree = "<group>"; };
+		7F4A5DE91FCC174D009C1C90 /* AnalyticsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnalyticsCell.xib; sourceTree = "<group>"; };
 		BD2B55E2F394EF452541A73F /* Pods-RSSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSSProject/Pods-RSSProject.release.xcconfig"; sourceTree = "<group>"; };
 		C4300920B41C52D9E8E34A5D /* libPods-RSSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,17 +88,58 @@
 		7F4A5DAF1FCC01A7009C1C90 /* RSSProject */ = {
 			isa = PBXGroup;
 			children = (
-				7F4A5DB01FCC01A7009C1C90 /* AppDelegate.h */,
-				7F4A5DB11FCC01A7009C1C90 /* AppDelegate.m */,
-				7F4A5DB31FCC01A7009C1C90 /* ViewController.h */,
-				7F4A5DB41FCC01A7009C1C90 /* ViewController.m */,
-				7F4A5DB61FCC01A7009C1C90 /* Main.storyboard */,
-				7F4A5DB91FCC01A7009C1C90 /* Assets.xcassets */,
-				7F4A5DBB1FCC01A7009C1C90 /* LaunchScreen.storyboard */,
 				7F4A5DBE1FCC01A7009C1C90 /* Info.plist */,
-				7F4A5DBF1FCC01A7009C1C90 /* main.m */,
+				7F4A5DDE1FCC11DF009C1C90 /* Controllers */,
+				7F4A5DDF1FCC11F8009C1C90 /* Storyboards */,
+				7F4A5DDD1FCC11C8009C1C90 /* Supported files */,
 			);
 			path = RSSProject;
+			sourceTree = "<group>";
+		};
+		7F4A5DDD1FCC11C8009C1C90 /* Supported files */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A5DB01FCC01A7009C1C90 /* AppDelegate.h */,
+				7F4A5DB11FCC01A7009C1C90 /* AppDelegate.m */,
+				7F4A5DB91FCC01A7009C1C90 /* Assets.xcassets */,
+				7F4A5DBB1FCC01A7009C1C90 /* LaunchScreen.storyboard */,
+				7F4A5DBF1FCC01A7009C1C90 /* main.m */,
+			);
+			path = "Supported files";
+			sourceTree = "<group>";
+		};
+		7F4A5DDE1FCC11DF009C1C90 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A5DE61FCC1730009C1C90 /* Cells */,
+				7F4A5DC61FCC07EE009C1C90 /* ParentTabBarController.h */,
+				7F4A5DC71FCC07EE009C1C90 /* ParentTabBarController.m */,
+				7F4A5DC91FCC085D009C1C90 /* NewsController.h */,
+				7F4A5DCA1FCC085D009C1C90 /* NewsController.m */,
+				7F4A5DCC1FCC086E009C1C90 /* AnalyticsController.h */,
+				7F4A5DCD1FCC086E009C1C90 /* AnalyticsController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7F4A5DDF1FCC11F8009C1C90 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A5DB61FCC01A7009C1C90 /* Main.storyboard */,
+				7F4A5DE41FCC128E009C1C90 /* FxLiveNews.storyboard */,
+				7F4A5DE21FCC125F009C1C90 /* FxAnalytics.storyboard */,
+				7F4A5DE91FCC174D009C1C90 /* AnalyticsCell.xib */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7F4A5DE61FCC1730009C1C90 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A5DE71FCC174D009C1C90 /* AnalyticsCell.h */,
+				7F4A5DE81FCC174D009C1C90 /* AnalyticsCell.m */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		D48CFA49F5B7F7F5AF5CE30E /* Pods */ = {
@@ -156,8 +212,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4A5DE51FCC128E009C1C90 /* FxLiveNews.storyboard in Resources */,
 				7F4A5DBD1FCC01A7009C1C90 /* LaunchScreen.storyboard in Resources */,
+				7F4A5DE31FCC125F009C1C90 /* FxAnalytics.storyboard in Resources */,
 				7F4A5DBA1FCC01A7009C1C90 /* Assets.xcassets in Resources */,
+				7F4A5DEB1FCC174D009C1C90 /* AnalyticsCell.xib in Resources */,
 				7F4A5DB81FCC01A7009C1C90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F4A5DB51FCC01A7009C1C90 /* ViewController.m in Sources */,
+				7F4A5DCB1FCC085D009C1C90 /* NewsController.m in Sources */,
+				7F4A5DC81FCC07EE009C1C90 /* ParentTabBarController.m in Sources */,
+				7F4A5DEA1FCC174D009C1C90 /* AnalyticsCell.m in Sources */,
 				7F4A5DC01FCC01A7009C1C90 /* main.m in Sources */,
+				7F4A5DCE1FCC086E009C1C90 /* AnalyticsController.m in Sources */,
 				7F4A5DB21FCC01A7009C1C90 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
