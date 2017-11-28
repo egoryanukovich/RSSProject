@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eps-Se-TgL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Imn-eR-U8K">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,85 +9,68 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--analyticsStb-->
-        <scene sceneID="YKL-XJ-wk1">
+        <!--Navigation Controller-->
+        <scene sceneID="VMa-tB-svq">
             <objects>
-                <viewControllerPlaceholder storyboardName="FxAnalytics" referencedIdentifier="analyticsStb" id="4z7-8c-thp" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="RHo-e0-EsI"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7wY-Ij-StR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Imn-eR-U8K" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AcY-Zg-36y">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GgJ-as-VqL" kind="relationship" relationship="rootViewController" id="Smi-ok-JiV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kpa-Jv-R2B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="802" y="245"/>
+            <point key="canvasLocation" x="-1770" y="-468"/>
+        </scene>
+        <!--RSS reader-->
+        <scene sceneID="ATs-8V-0Yi">
+            <objects>
+                <tableViewController id="GgJ-as-VqL" customClass="ChannelsTableController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="tw6-cc-bSS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChannelCellID" id="ptZ-Ge-IF4" customClass="ChannelCell">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ptZ-Ge-IF4" id="sCL-6r-rIe">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="cJ3-R3-csU" kind="show" identifier="ExampleSegue" id="Hbi-11-OLw"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="GgJ-as-VqL" id="sho-IX-gt4"/>
+                            <outlet property="delegate" destination="GgJ-as-VqL" id="EKR-8G-flE"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="RSS reader" id="O3f-gE-2Ln">
+                        <barButtonItem key="backBarButtonItem" title="Channels" id="inc-1b-ycz"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="channelsTableView" destination="tw6-cc-bSS" id="69T-qe-Bh5"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pGT-jl-gMp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-934" y="-468"/>
         </scene>
         <!--newsStb-->
-        <scene sceneID="rRc-jG-TGs">
+        <scene sceneID="ht4-QH-s9R">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="newsStb" storyboardName="FxLiveNews" referencedIdentifier="newsStb" id="O2N-l2-Gqk" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="SiO-UY-doY"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kDf-0g-TuT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="newsStb" storyboardName="FxNews" referencedIdentifier="newsStb" id="cJ3-R3-csU" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hni-XL-hOl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="802" y="-500"/>
-        </scene>
-        <!--Parent Tab Bar Controller-->
-        <scene sceneID="gSj-1s-GMJ">
-            <objects>
-                <tabBarController id="eps-Se-TgL" customClass="ParentTabBarController" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="rWF-44-xrC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="FKD-sZ-LHJ" kind="relationship" relationship="viewControllers" id="Zzu-HX-pPz"/>
-                        <segue destination="TFF-1Y-dJQ" kind="relationship" relationship="viewControllers" id="2No-8S-NrU"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MNx-8t-xeS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-921" y="-117"/>
-        </scene>
-        <!--Forex live news-->
-        <scene sceneID="H4c-ya-Y0I">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FKD-sZ-LHJ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Forex live news" image="rssNews" id="Mat-lY-zkb"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="smV-87-q6j">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="O2N-l2-Gqk" kind="relationship" relationship="rootViewController" id="QQJ-k0-pIH"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vSe-kZ-OVq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="116" y="-499"/>
-        </scene>
-        <!--Forex analytics-->
-        <scene sceneID="47C-ms-ChD">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TFF-1Y-dJQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Forex analytics" image="rssAnalytics" id="EgK-tE-4iE"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zbP-uf-gqe">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="4z7-8c-thp" kind="relationship" relationship="rootViewController" id="prN-k1-a4v"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cTv-oF-OjH" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="116" y="246"/>
+            <point key="canvasLocation" x="-174" y="-487"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="rssAnalytics" width="15" height="15"/>
-        <image name="rssNews" width="15" height="15"/>
-    </resources>
 </document>

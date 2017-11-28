@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		54B0F5DA33C743BA51B758C2 /* libPods-RSSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4300920B41C52D9E8E34A5D /* libPods-RSSProject.a */; };
+		7F38C84D1FCD6147001C0B14 /* ChannelsTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F38C84C1FCD6147001C0B14 /* ChannelsTableController.m */; };
+		7F38C8541FCD629F001C0B14 /* ChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F38C8521FCD629F001C0B14 /* ChannelCell.m */; };
+		7F38C8551FCD629F001C0B14 /* ChannelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F38C8531FCD629F001C0B14 /* ChannelCell.xib */; };
+		7F38C8591FCD65CF001C0B14 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F38C8571FCD65CF001C0B14 /* NewsCell.m */; };
+		7F38C85A1FCD65CF001C0B14 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F38C8581FCD65CF001C0B14 /* NewsCell.xib */; };
 		7F4A5DB21FCC01A7009C1C90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A5DB11FCC01A7009C1C90 /* AppDelegate.m */; };
 		7F4A5DB81FCC01A7009C1C90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A5DB61FCC01A7009C1C90 /* Main.storyboard */; };
 		7F4A5DBA1FCC01A7009C1C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A5DB91FCC01A7009C1C90 /* Assets.xcassets */; };
 		7F4A5DBD1FCC01A7009C1C90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A5DBB1FCC01A7009C1C90 /* LaunchScreen.storyboard */; };
 		7F4A5DC01FCC01A7009C1C90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A5DBF1FCC01A7009C1C90 /* main.m */; };
-		7F4A5DC81FCC07EE009C1C90 /* ParentTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A5DC71FCC07EE009C1C90 /* ParentTabBarController.m */; };
 		7F4A5DCB1FCC085D009C1C90 /* NewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A5DCA1FCC085D009C1C90 /* NewsController.m */; };
-		7F4A5DCE1FCC086E009C1C90 /* AnalyticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A5DCD1FCC086E009C1C90 /* AnalyticsController.m */; };
-		7F4A5DE31FCC125F009C1C90 /* FxAnalytics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A5DE21FCC125F009C1C90 /* FxAnalytics.storyboard */; };
-		7F4A5DE51FCC128E009C1C90 /* FxLiveNews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A5DE41FCC128E009C1C90 /* FxLiveNews.storyboard */; };
-		7F4A5DEA1FCC174D009C1C90 /* AnalyticsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A5DE81FCC174D009C1C90 /* AnalyticsCell.m */; };
-		7F4A5DEB1FCC174D009C1C90 /* AnalyticsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A5DE91FCC174D009C1C90 /* AnalyticsCell.xib */; };
+		7F6A3F421FCC5BB500352BA4 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6A3F411FCC5BB500352BA4 /* News.m */; };
+		7F6D864A1FCD821B003DE652 /* FxNews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6D86491FCD821B003DE652 /* FxNews.storyboard */; };
+		7F6D864D1FCD836A003DE652 /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D864C1FCD836A003DE652 /* Channel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		351B314294354BE2335775E1 /* Pods-RSSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSSProject/Pods-RSSProject.debug.xcconfig"; sourceTree = "<group>"; };
+		7F38C84B1FCD6147001C0B14 /* ChannelsTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChannelsTableController.h; sourceTree = "<group>"; };
+		7F38C84C1FCD6147001C0B14 /* ChannelsTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableController.m; sourceTree = "<group>"; };
+		7F38C8511FCD629F001C0B14 /* ChannelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChannelCell.h; sourceTree = "<group>"; };
+		7F38C8521FCD629F001C0B14 /* ChannelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChannelCell.m; sourceTree = "<group>"; };
+		7F38C8531FCD629F001C0B14 /* ChannelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelCell.xib; sourceTree = "<group>"; };
+		7F38C8561FCD65CF001C0B14 /* NewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		7F38C8571FCD65CF001C0B14 /* NewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		7F38C8581FCD65CF001C0B14 /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
 		7F4A5DAD1FCC01A7009C1C90 /* RSSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4A5DB01FCC01A7009C1C90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F4A5DB11FCC01A7009C1C90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,17 +42,13 @@
 		7F4A5DBC1FCC01A7009C1C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F4A5DBE1FCC01A7009C1C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F4A5DBF1FCC01A7009C1C90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7F4A5DC61FCC07EE009C1C90 /* ParentTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentTabBarController.h; sourceTree = "<group>"; };
-		7F4A5DC71FCC07EE009C1C90 /* ParentTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentTabBarController.m; sourceTree = "<group>"; };
 		7F4A5DC91FCC085D009C1C90 /* NewsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsController.h; sourceTree = "<group>"; };
 		7F4A5DCA1FCC085D009C1C90 /* NewsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsController.m; sourceTree = "<group>"; };
-		7F4A5DCC1FCC086E009C1C90 /* AnalyticsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalyticsController.h; sourceTree = "<group>"; };
-		7F4A5DCD1FCC086E009C1C90 /* AnalyticsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalyticsController.m; sourceTree = "<group>"; };
-		7F4A5DE21FCC125F009C1C90 /* FxAnalytics.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FxAnalytics.storyboard; sourceTree = "<group>"; };
-		7F4A5DE41FCC128E009C1C90 /* FxLiveNews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FxLiveNews.storyboard; sourceTree = "<group>"; };
-		7F4A5DE71FCC174D009C1C90 /* AnalyticsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalyticsCell.h; sourceTree = "<group>"; };
-		7F4A5DE81FCC174D009C1C90 /* AnalyticsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalyticsCell.m; sourceTree = "<group>"; };
-		7F4A5DE91FCC174D009C1C90 /* AnalyticsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnalyticsCell.xib; sourceTree = "<group>"; };
+		7F6A3F401FCC5BB500352BA4 /* News.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		7F6A3F411FCC5BB500352BA4 /* News.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		7F6D86491FCD821B003DE652 /* FxNews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FxNews.storyboard; sourceTree = "<group>"; };
+		7F6D864B1FCD836A003DE652 /* Channel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
+		7F6D864C1FCD836A003DE652 /* Channel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Channel.m; sourceTree = "<group>"; };
 		BD2B55E2F394EF452541A73F /* Pods-RSSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSSProject/Pods-RSSProject.release.xcconfig"; sourceTree = "<group>"; };
 		C4300920B41C52D9E8E34A5D /* libPods-RSSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -88,9 +94,10 @@
 		7F4A5DAF1FCC01A7009C1C90 /* RSSProject */ = {
 			isa = PBXGroup;
 			children = (
-				7F4A5DBE1FCC01A7009C1C90 /* Info.plist */,
+				7F6A3F361FCC547300352BA4 /* Models */,
 				7F4A5DDE1FCC11DF009C1C90 /* Controllers */,
 				7F4A5DDF1FCC11F8009C1C90 /* Storyboards */,
+				7F4A5DBE1FCC01A7009C1C90 /* Info.plist */,
 				7F4A5DDD1FCC11C8009C1C90 /* Supported files */,
 			);
 			path = RSSProject;
@@ -112,12 +119,10 @@
 			isa = PBXGroup;
 			children = (
 				7F4A5DE61FCC1730009C1C90 /* Cells */,
-				7F4A5DC61FCC07EE009C1C90 /* ParentTabBarController.h */,
-				7F4A5DC71FCC07EE009C1C90 /* ParentTabBarController.m */,
+				7F38C84B1FCD6147001C0B14 /* ChannelsTableController.h */,
+				7F38C84C1FCD6147001C0B14 /* ChannelsTableController.m */,
 				7F4A5DC91FCC085D009C1C90 /* NewsController.h */,
 				7F4A5DCA1FCC085D009C1C90 /* NewsController.m */,
-				7F4A5DCC1FCC086E009C1C90 /* AnalyticsController.h */,
-				7F4A5DCD1FCC086E009C1C90 /* AnalyticsController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -126,9 +131,9 @@
 			isa = PBXGroup;
 			children = (
 				7F4A5DB61FCC01A7009C1C90 /* Main.storyboard */,
-				7F4A5DE41FCC128E009C1C90 /* FxLiveNews.storyboard */,
-				7F4A5DE21FCC125F009C1C90 /* FxAnalytics.storyboard */,
-				7F4A5DE91FCC174D009C1C90 /* AnalyticsCell.xib */,
+				7F6D86491FCD821B003DE652 /* FxNews.storyboard */,
+				7F38C8531FCD629F001C0B14 /* ChannelCell.xib */,
+				7F38C8581FCD65CF001C0B14 /* NewsCell.xib */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -136,10 +141,23 @@
 		7F4A5DE61FCC1730009C1C90 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				7F4A5DE71FCC174D009C1C90 /* AnalyticsCell.h */,
-				7F4A5DE81FCC174D009C1C90 /* AnalyticsCell.m */,
+				7F38C8511FCD629F001C0B14 /* ChannelCell.h */,
+				7F38C8521FCD629F001C0B14 /* ChannelCell.m */,
+				7F38C8561FCD65CF001C0B14 /* NewsCell.h */,
+				7F38C8571FCD65CF001C0B14 /* NewsCell.m */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		7F6A3F361FCC547300352BA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F6D864B1FCD836A003DE652 /* Channel.h */,
+				7F6D864C1FCD836A003DE652 /* Channel.m */,
+				7F6A3F401FCC5BB500352BA4 /* News.h */,
+				7F6A3F411FCC5BB500352BA4 /* News.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		D48CFA49F5B7F7F5AF5CE30E /* Pods */ = {
@@ -212,11 +230,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F4A5DE51FCC128E009C1C90 /* FxLiveNews.storyboard in Resources */,
 				7F4A5DBD1FCC01A7009C1C90 /* LaunchScreen.storyboard in Resources */,
-				7F4A5DE31FCC125F009C1C90 /* FxAnalytics.storyboard in Resources */,
+				7F6D864A1FCD821B003DE652 /* FxNews.storyboard in Resources */,
+				7F38C85A1FCD65CF001C0B14 /* NewsCell.xib in Resources */,
+				7F38C8551FCD629F001C0B14 /* ChannelCell.xib in Resources */,
 				7F4A5DBA1FCC01A7009C1C90 /* Assets.xcassets in Resources */,
-				7F4A5DEB1FCC174D009C1C90 /* AnalyticsCell.xib in Resources */,
 				7F4A5DB81FCC01A7009C1C90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,11 +298,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F4A5DCB1FCC085D009C1C90 /* NewsController.m in Sources */,
-				7F4A5DC81FCC07EE009C1C90 /* ParentTabBarController.m in Sources */,
-				7F4A5DEA1FCC174D009C1C90 /* AnalyticsCell.m in Sources */,
+				7F6A3F421FCC5BB500352BA4 /* News.m in Sources */,
+				7F38C84D1FCD6147001C0B14 /* ChannelsTableController.m in Sources */,
+				7F38C8591FCD65CF001C0B14 /* NewsCell.m in Sources */,
 				7F4A5DC01FCC01A7009C1C90 /* main.m in Sources */,
-				7F4A5DCE1FCC086E009C1C90 /* AnalyticsController.m in Sources */,
+				7F6D864D1FCD836A003DE652 /* Channel.m in Sources */,
 				7F4A5DB21FCC01A7009C1C90 /* AppDelegate.m in Sources */,
+				7F38C8541FCD629F001C0B14 /* ChannelCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,11 +7,14 @@
 //
 
 #import "NewsController.h"
-#import "AnalyticsCell.h"
+#import "NewsCell.h"
+
+static NSString* kNewsCellID = @"NewsCellID";
 
 @interface NewsController () <UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) NSString* newsURL;
 @property (strong, nonatomic) IBOutlet UITableView *newsTableView;
+
 @end
 
 @implementation NewsController
@@ -23,7 +26,7 @@
     self.newsTableView.delegate = self;
     self.newsTableView.dataSource = self;
     
-     [self.newsTableView registerNib:[UINib nibWithNibName:@"AnalyticsCell" bundle:nil] forCellReuseIdentifier:@"AnalyticsCellID"];
+     [self.newsTableView registerNib:[UINib nibWithNibName:@"NewsCell" bundle:nil] forCellReuseIdentifier:kNewsCellID];
 }
 
 #pragma MARK - UITableViewDelegate
@@ -38,14 +41,15 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    static NSString* analyticsIdentifier = @"AnalyticsCellID";
-    AnalyticsCell* cell = (AnalyticsCell*)[tableView dequeueReusableCellWithIdentifier:analyticsIdentifier];
+    NewsCell* cell = (NewsCell*)[tableView dequeueReusableCellWithIdentifier:kNewsCellID];
     
     if (!cell) {
-        cell = [[AnalyticsCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:analyticsIdentifier];
+        cell = [[NewsCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kNewsCellID];
     }
-    cell.newsDateLabel.text = @"15.10.12";
-    cell.newsHeaderLabel.text = @"TUTITU";
+//    cell.newsDateLabel.text = @"15.10.12";
+//    cell.newsHeaderLabel.text = @"TUTITU";
+    cell.newsHeaderLabel.text = @"TUTUTU";
+    cell.pubDateLabel.text = @"12.10.12";
     return cell;
 }
 

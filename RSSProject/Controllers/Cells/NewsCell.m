@@ -1,16 +1,14 @@
 //
-//  AnalyticsCell.m
+//  NewsCell.m
 //  RSSProject
 //
-//  Created by Egor Yanukovich on 11/27/17.
+//  Created by Egor Yanukovich on 11/28/17.
 //  Copyright © 2017 Egor Yanukovich. All rights reserved.
 //
 
-#import "AnalyticsCell.h"
+#import "NewsCell.h"
 
-@implementation AnalyticsCell
-
-
+@implementation NewsCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
